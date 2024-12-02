@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caixa Eletrônico</title>
+</head>
+<body>
+    <h1>Caixa Eletrônico</h1>
+
+    <select id="operacao">
+        <option value="saldo">Consultar Saldo</option>
+        <option value="saque">Sacar</option>
+        <option value="deposito">Depositar</option>
+    </select>
+
+    <input type="number" id="valor" placeholder="Digite o valor">
+
+    <button onclick="realizarOperacao()">Realizar</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
